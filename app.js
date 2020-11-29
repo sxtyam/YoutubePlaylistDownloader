@@ -46,7 +46,6 @@ async function downloadPlaylist(playlistLink) {
         if(j == links.length - 1) {
           console.log('quitting driver')
           await driver.quit();
-          https.get('/');
         }
       }
     }
