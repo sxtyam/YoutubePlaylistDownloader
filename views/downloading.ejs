@@ -33,15 +33,11 @@
 
     <h1>YouTube Video Downloader</h1>
 
-    <div class='container' id='form-div'>
-      <form action='/download' method='POST'>
-        <div class="form-group">
-          <label for="playlistURL">URL</label>
-          <input type="text" class="form-control" id="playlistURL" placeholder="Enter YouTube Playlist URL" name='playlistURL'>
-        </div>
-        <button type="submit" class="btn btn-primary" id='submit-button'>Submit</button>
-      </form>
+    <div class='container' id='downloading-div'>
+      <div class="loader">Downloading...</div>
     </div>
+
+    <h5><a href="/">Download Another Playlist</a></h5>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
